@@ -106,3 +106,42 @@ function getMyFriendsArray()
 
   return friends;
 }
+
+// ----------------------------------------------
+
+function myDivision(num, dem, quo)
+{
+    if ((num/dem) == quo) return true; else return false;
+
+}
+
+// ---------------------------------------------
+
+function concat(string1, string2)
+{
+    return string1 + string2;
+}
+
+// -----------------------------------------------
+
+function makeArray(num1, num2, num3)
+{
+  var newArray = new Array;
+
+  newArray.push(num1);
+  newArray.push(num2);
+  newArray.push(num3);
+
+  return newArray;
+}
+
+// --------------------------------------
+
+var answer = myDivision(10,4,2);
+alert("myDivision answer is " + answer);
+
+var myString = concat("Jonny ","Baseball");
+alert ("concat answer is " + myString);
+
+var myArray = makeArray(5,8,2);
+alert ("makeArray answer is " + myArray);
